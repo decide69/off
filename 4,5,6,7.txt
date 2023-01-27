@@ -1,0 +1,36 @@
+whois 74.125.68.106
+
+recon ng
+
+recon-cli -h
+
+recon-ng -h
+
+recon-web -h
+
+sslscan 172.31.15.173:80
+
+
+nstcraft
+
+shodan
+
+
+
+theHarvester -h
+
+theHarvester -d kali.org -l 500 -b google
+
+OSINT framework
+
+
+dnsenum -h
+
+dnsenum --noreverse -o mydomain.xml example.com
+
+
+nmap www.google.com
+
+nmap -v www.google.com
+
+sudo nmap -O www.google.com
