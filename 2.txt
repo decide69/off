@@ -1,0 +1,97 @@
+Prac2(a(i))
+
+cd Downlod
+
+env
+
+education=Masters_IT
+
+echo $education=Masters_IT 
+
+export export educationyear=2021-2023
+
+export myip=10.0.2.15  
+
+ping $myip 
+
+ping -c 5 $myip
+
+echo $myip 10.0.2.15
+
+unset myip
+
+echo $myip
+
+history | head -10
+
+history 5
+
+
+
+Prac2 (b piping)
+ls -ltr
+
+ls -ltr | head -5
+
+ls -ltr | head -2 | tail -2
+
+Prac2 (b redirection)
+
+ls > dir_list
+
+cat dir_list
+
+wc -l paragraph.txt>word_count
+
+cat word_count 3
+
+echo "New changes in the file!">>paragraph.txt
+
+cat paragraph.txt
+
+
+Prac 2(b text search and manipuation)
+cat paragraph.txt | grep lab
+
+cat paragraph.txt | awk '{print $1}'
+
+cat paragraph.txt
+
+cat paragraph.txt | sed 's/practical/offensive/g'
+
+cat paragraph.txt | cut -b 1
+
+
+Prac2 (c)
+echo "Welcome to Offensive Practical 2C" > 2cpractical.txt
+
+cat 2cpractical.txt
+
+cd offensive
+
+touch Cyberworld
+
+ls
+
+gedit
+
+cmp 2cpractical.txt paragraph.txt
+
+diff -v
+
+diff --side-by-side paragraph.txt 2cpractical.txt
+
+diff -c paragraph.txt 2cpractical.txt
+
+top
+
+ps -ef | grep apache2
+
+sudo kill -9 560
+
+tmux
+
+tmux ls
+
+
+
