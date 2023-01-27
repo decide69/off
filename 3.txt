@@ -1,0 +1,38 @@
+Practical 3(b)
+
+cd Desktop/Powershell 
+
+sudo apt install powercat
+
+sudo apt install python2 
+
+python2 -m SimpleHTTPServer 80
+
+nc -vlp 4444
+
+
+Practical 3(c)
+
+sudo apt install tcpdump
+
+sudo tcpdump
+
+sudo tcpdump -D
+
+sudo tcpdump -i any
+
+sudo tcpdump -i eth0
+
+sudo tcpdump -i bluetooth-monitor
+
+sudo tcpdump -i any -c 5
+
+sudo tcpdump -A -i eth0
+
+sudo tcpdump -n -i eth0
+
+sudo tcpdump -XX -i eth0
+
+sudo tcpdump -w captured_packets.pcap -i eth0
+
+sudo tcpdump -r captured_packets.pcap
